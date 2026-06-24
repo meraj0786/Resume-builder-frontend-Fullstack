@@ -52,7 +52,7 @@ def create_beautiful_resume():
     # Professional Summary
     story.append(Paragraph("Professional Summary", styles['Heading1Left']))
     summary_text = (
-    "Frontend Developer with 3+ years of experience building responsive, scalable, and high-performance web applications. "
+    "Frontend Developer with 3.10 years of experience building responsive, scalable, and high-performance web applications. "
     "Proficient in React.js, Next.js, JavaScript (ES6+), HTML5, CSS3, Bootstrap, Material-UI, and Tailwind CSS. "
     "Skilled in RESTful API integration, cross-browser compatibility, and performance optimization. "
     "Strong team player experienced in Agile environments, focused on delivering user-friendly and accessible UI solutions."
@@ -65,7 +65,7 @@ def create_beautiful_resume():
     story.append(Paragraph("Skills", styles['Heading1Left']))
     skills_text = (
         "JavaScript (ES6+), React.js, Next.js, Node.js, jQuery, HTML5, CSS3, Bootstrap, Material-UI, Tailwind CSS, Redux, Context API, RESTful APIs, JSON, Axios, Fetch, "
-        "npm/yarn, UI/UX Best Practices, Python, Django, Flask, REST API,  SQL (MySQL),  Git, Object-Oriented Programming.  "
+        "npm/yarn, UI/UX Best Practices, Python, FastAPI, REST API,  SQL (MySQL),  Git, Object-Oriented Programming.  "
     )
     story.append(Paragraph(skills_text, styles['NormalLeft']))
     story.append(Spacer(1, 12))

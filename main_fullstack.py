@@ -52,9 +52,9 @@ def create_beautiful_resume():
     # Professional Summary
     story.append(Paragraph("Professional Summary", styles['Heading1Left']))
     summary_text = (
-    "Full Stack Developer with 3+ years of experience building responsive, scalable web applications. "
+    "Full Stack Developer with 4 years of experience building responsive, scalable web applications. "
     "Proficient in React.js, Next.js, JavaScript (ES6+), HTML5, CSS3, and modern UI frameworks. "
-    "Skilled in backend development with Python Flask, RESTful APIs, and database integration. "
+    "Skilled in backend development with Python FastAPI, RESTful APIs, MySQL and database integration. "
     "Collaborative team player with a focus on performance and accessibility."
 )
 
@@ -64,8 +64,8 @@ def create_beautiful_resume():
     # Skills
     story.append(Paragraph("Skills", styles['Heading1Left']))
     skills_text = (
-        "JavaScript (ES6+), React.js, Next.js, Node.js, jQuery, HTML5, CSS3, Bootstrap, Material-UI, Tailwind CSS, Redux, Context API, RESTful APIs, JSON, Axios, Fetch, "
-        "npm/yarn, UI/UX Best Practices, Python, Django, Flask, REST API,  SQL (MySQL),  Git, Object-Oriented Programming.  "
+        "JavaScript (ES6+), React.js, Next.js, jQuery, HTML5, CSS3, Bootstrap, Material-UI, Tailwind CSS, Redux, Context API, RESTful APIs, JSON, Axios, Fetch, "
+        "npm/yarn, UI/UX Best Practices, Python, Django, FastAPI, REST API,  SQL (MySQL),  Git, Object-Oriented Programming, Dockers.  "
     )
     story.append(Paragraph(skills_text, styles['NormalLeft']))
     story.append(Spacer(1, 12))
@@ -78,7 +78,7 @@ def create_beautiful_resume():
     work_bullets = [
     "Developed and maintained the official AIC website using React.js with responsive, mobile-friendly design.",
     "Built reusable components, integrated RESTful APIs, and optimized performance with code splitting and lazy loading.",
-    "Implemented backend services with Python Flask, integrated MySQL for efficient data storage, and managed CRUD operations.",
+    "Implemented backend services with Python FastAPI, integrated MySQL for efficient data storage, and CRUD operations.",
     "Collaborated on end-to-end development, ensuring scalability, security, and smooth integration between frontend and backend."
 ]
 
@@ -92,7 +92,7 @@ def create_beautiful_resume():
         'Built and optimized React.js components with Redux/Context API for product listings, cart, and checkout flows.',
         'Implemented reusable UI modules with React hooks, improving feature delivery and maintainability.',
         'Developed custom form validations for address, payment, and registration forms to ensure accurate data capture.',
-        'Integrated OAuth-based social logins (Google, Facebook) with backend APIs for seamless user onboarding.',
+        'Integrated Auth-based social logins (Google, Facebook) with backend APIs for seamless user onboarding.',
         'Enhanced page load performance with code splitting, lazy loading, and API response handling.'
     ]
     story.append(ListFlowable([ListItem(Paragraph(b, styles['NormalLeft'])) for b in work_bullets], bulletType='bullet'))
@@ -109,14 +109,14 @@ def create_beautiful_resume():
         ],
 
        'PMFBY (Pradhan Mantri Fasal Bima Yojana) | 2024 – Present': [
-            "Developed React.js frontend integrated with Flask APIs for nationwide crop insurance operations.",
+            "Developed React.js frontend integrated with FastAPI APIs for nationwide crop insurance operations.",
             "Built reporting, claim workflows, and survey modules to streamline farmer–insurer interactions.",
             "Implemented interactive data visualizations and historical/state-wise claim insights.",
             "Enabled Excel report generation, bulk upload, and inline data edits for large datasets."
         ],
 
         'AMS (Asset Management System) | 2024 - Present': [
-            "Developed Flask REST APIs with MySQL for asset allocation, tracking, and lifecycle management with role-based access.",
+            "Developed FastAPI-based REST APIs with MySQL for asset allocation, tracking, and lifecycle management with role-based access.",
             "Integrated React.js frontend with backend services, with enabling Excel upload/export, and secure data handling.",
             "Built dashboards and reports with advanced filtering/search to support faster decision-making."
         ]
